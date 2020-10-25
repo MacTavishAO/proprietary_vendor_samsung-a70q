@@ -75,25 +75,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libplatformconfig",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libplatformconfig.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libplatformconfig.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libril",
 	owner: "samsung",
 	strip: {
