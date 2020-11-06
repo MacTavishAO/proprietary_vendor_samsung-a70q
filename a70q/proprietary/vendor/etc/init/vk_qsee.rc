@@ -1,0 +1,7 @@
+on late-fs
+    # vaultkeeper
+    wait_for_prop vendor.sys.qseecomd.enable true
+    mkdir /dev/socket/vaultkeeper 0770 system system
+    start vaultkeeper
+    start vaultkeeper_hal
+

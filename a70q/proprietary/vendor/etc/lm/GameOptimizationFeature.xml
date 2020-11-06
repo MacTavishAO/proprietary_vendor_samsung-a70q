@@ -27,8 +27,8 @@
     </Configs>
     <Profiles>
         <Profile>
-            <!-- Colocation v3 1 GHz -->
-            <DEFAULT>0x40c6c000,1000000</DEFAULT>
+            <!-- Colocation v3 1 GHz, Predictive Load 1 -->
+            <DEFAULT>0x40c6c000,1000000,0x41444000,1</DEFAULT>
             <!-- Colocation v3 1 GHz, Predictive Load 1 -->
             <SKEW2>0x40c6c000,1000000,0x41444000,1</SKEW2>
         </Profile>
