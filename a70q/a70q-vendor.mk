@@ -1052,6 +1052,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a70q/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
 	vendor/samsung/a70q/proprietary/vendor/lib64/liblow_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblow_light_hdr.so \
 	vendor/samsung/a70q/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
+	vendor/samsung/a70q/proprietary/vendor/lib64/libmacpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmacpuresoftkeymasterdevice.so \
+	vendor/samsung/a70q/proprietary/vendor/lib64/libmacsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmacsoftkeymasterdevice.so \
 	vendor/samsung/a70q/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
 	vendor/samsung/a70q/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
 	vendor/samsung/a70q/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so \
