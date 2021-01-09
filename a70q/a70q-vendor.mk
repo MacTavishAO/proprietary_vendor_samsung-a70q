@@ -862,7 +862,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a70q/proprietary/vendor/lib/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.securestorage@3.0.so \
 	vendor/samsung/a70q/proprietary/vendor/lib/vndk/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_foundation.so \
 	vendor/samsung/a70q/proprietary/vendor/lib/vndk/libstagefright_omx_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx_utils.so \
-	vendor/samsung/a70q/proprietary/vendor/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so \
 	vendor/samsung/a70q/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
 	vendor/samsung/a70q/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
 	vendor/samsung/a70q/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
